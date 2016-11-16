@@ -1,0 +1,14 @@
+
+
+
+int t= System.currentTimeMillis();
+int end = t+5000;
+while(System.currentTimeMillis() < end) {
+//stuff
+}
+ 
+           
+           
+           leftMotor.setPower(0.99);
+            //rightMotor must be negative
+            rightMotor.setPower(-0.99);
